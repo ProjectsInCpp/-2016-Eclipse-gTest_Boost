@@ -1,0 +1,26 @@
+/*
+ * CShape_test.cpp
+ *
+ *  Created on: Jul 3, 2016
+ *      Author: pkorycin
+ */
+
+#include <iostream>
+#include "src/CShape.h"
+#include "gtest/gtest.h"
+
+using namespace std;
+
+TEST(CShape, getID){
+	// arrange
+	CShape obj;
+	int rcVal;
+	int expVal = 1;
+
+	// act
+	rcVal = obj.GetID();
+
+	// assert
+	EXPECT_EQ(expVal, rcVal);
+}
+
