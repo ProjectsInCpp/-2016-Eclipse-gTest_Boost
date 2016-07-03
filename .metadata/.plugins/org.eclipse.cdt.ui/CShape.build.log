@@ -1,7 +1,11 @@
-12:27:45 **** Incremental Build of configuration Debug for project CShape ****
+12:38:44 **** Incremental Build of configuration Debug for project CShape ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Libraries\\googletestlib\\include" "-ID:\\Libraries\\boost_1_61_0" -O0 -g3 -Wall -c -fmessage-length=0 -o CShape_test.o "..\\CShape_test.cpp" 
-g++ "-LD:\\Libraries\\googletestlib\\make" -o CShape.exe CShape_test.o "src\\CShape.o" -lgtest 
+g++ "-ID:\\userdata\\pkorycin\\GitHub\\-2016-Nokia-Eclipse-gTest_Boost\\Libs_y_Compilers\\googletestlib\\include" "-ID:\\userdata\\pkorycin\\GitHub\\-2016-Nokia-Eclipse-gTest_Boost\\Libs_y_Compilers\\boost_1_61_0" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CShape.o" "..\\src\\CShape.cpp" 
+Cannot run program "g++": Launching failed
 
-12:27:47 Build Finished (took 1s.904ms)
+Error: Program "g++" not found in PATH
+PATH=[D:\Libraries\MinGW\bin;D:\Libraries\MinGW\msys\1.0\bin;D:\Libraries\MinGW\msys\1.0\usr\bin;D:/Softwares/Java/bin/server;D:/Softwares/Java/bin;D:/Softwares/Java/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\SafeCom\SafeComPrintClient;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;D:\Softwares\Java\bin;D:\Libraries\MinGW\bin;;D:\Softwares\Eclipse Neon]
+
+
+12:38:44 Build Finished (took 640ms)
 

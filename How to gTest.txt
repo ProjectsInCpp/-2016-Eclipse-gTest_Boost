@@ -1,0 +1,23 @@
+Instruction for Eclipse Neon.
+
+1. PPM on "Project Name" in Project Explorer.
+
+2. Properties -> C/C++ Build -> Settings
+
+3. GCC C++ Compiler -> Includes -> 
+	a) Include paths : "location of "include" folder in googletestlib"
+
+4. MinGW C++ Linker -> Libraries ->
+	a) Libraries : "gtest"
+	b) Library search path : "location of "make" folder in googletestlib"
+
+5. Apply -> OK
+
+6. Ctrl + B ( Build All )
+
+7. Alt + R -> N (Run -> Run Configurations)
+	a) C/C++ Unit
+	b) Search Project -> OK
+	c) Apply -> Run
+
+	

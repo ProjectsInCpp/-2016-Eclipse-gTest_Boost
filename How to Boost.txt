@@ -1,0 +1,14 @@
+Instruction for Eclipse Neon.
+
+1. PPM on "Project Name" in Project Explorer.
+
+2. Properties -> C/C++ Build -> Settings
+
+3. GCC C++ Compiler -> Includes -> 
+	a) Include paths : "location of main boost folder"
+
+5. Apply -> OK
+
+6. Ctrl + B ( Build All )
+
+	
